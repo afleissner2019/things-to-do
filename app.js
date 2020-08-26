@@ -83,8 +83,8 @@ function getItem(thingsToDo){
 
     thingsToDo.forEach(function(item){
         itemList.insertAdjacentHTML("beforeend", `<div class="item"><span class="item-name text-capitalize">
-        ${item}</span><div class="item-icons"> <img class="complete" src="./img/complete.png" alt="" /> 
-         <img class="delete" src="./img/criss-cross.png" alt="" />  
+        ${item}</span><div class="item-icons"> <img class="complete" src="/img/complete.png" alt="" /> 
+         <img class="delete" src="/img/criss-cross.png" alt="" />  
         </div></div>`)
 
         manageItems(item);
