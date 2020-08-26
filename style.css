@@ -1,0 +1,137 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    margin: auto;
+}
+
+
+#format{
+    text-align: center;
+    color: white;
+    padding-bottom: 50px;
+    
+
+}
+
+.input-name{
+    display: flex;
+    justify-content: center;
+
+}
+
+.delete-items{
+    display: flex;
+    justify-content: center;
+    
+
+}
+#delete-list{
+  height: 30px;
+  width: 100px;
+  border-radius: 60px;
+  background-color: hotpink;
+
+}
+#delete-list:focus, #btn-item:focus{
+  background-color: rgb(177, 228, 177);
+  opacity: 0.9;
+ 
+}
+#delete-list:hover, #btn-item:hover{
+  cursor: pointer;
+  background-color: rgb(156, 154, 154);
+  opacity: 3;
+}
+
+.complete, .edit, .delete{
+    height: 20px;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+  }
+
+  /* .visibility {
+    opacity: 0.5;
+  } */
+
+  .showItem {
+    display: block;
+  } */
+  
+  .feedback {
+    display: none;
+  }
+
+  .item {
+    display: flex;
+    justify-content:space-evenly;
+    align-content: center;
+    border: 1px solid black;
+    font-size: 30px;
+    color: white;
+   
+  }
+
+  #textInput{
+    height: 30px;
+    width: 300px;
+  }
+  #btn-item{
+    height: 36px;
+    width: 100px;
+    background-color: mediumspringgreen;
+
+  }
+  .date{
+    color: white;
+    font-size: 15px;
+    margin-left: 30px;
+  }
+.name, .deg, .detail{
+  color: white;
+  padding-right: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.maindiv{
+  padding-top: 20px;
+  padding-left: 50px;
+  
+}
+
+.display{
+  display: flex;
+ 
+}
+.button:hover{
+  cursor: pointer;
+
+}
+.span-things{
+  color: hotpink;
+}
+.span-to{
+  color: mediumspringgreen;
+}
+.span-do{
+  color: greenyellow;
+}
+
+.maindiv{
+  color: white;
+}
+.input{
+  padding-top: 20px;
+}
+.weather{
+  width: 50px;
+  height: 50px;
+
+}
+.clouds{
+  width: 80px;
+  height: 45px;
+}
